@@ -1,0 +1,18 @@
+{
+  "name": "Point_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-e2e": "./node_modules/.bin/cucumber-js.cmd --parallel 3 --format json:./reports/report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "cucumber-html-reporter": "^5.5.0",
+    "dotenv": "^16.0.0",
+    "testcafe": "^1.18.4"
+  }
+}

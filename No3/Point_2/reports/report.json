@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "essential-features;user-can-play-music-directly-after-accessing-youtube-music",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User can play music directly after accessing Youtube music",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to Youtube music Web",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click search panel on top of page",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User input the \"In the end\" keyword",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User choose the song from the search result",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1356000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "essential-features",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Essential features",
+    "tags": [],
+    "uri": "features\\testcase1.feature"
+  }
+]
