@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "essential-features;user-can-play-music-directly-after-accessing-youtube-music",
+        "id": "most-accessed-features-2;user-can-choose-any-song-genre-to-explore",
         "keyword": "Scenario",
         "line": 3,
-        "name": "User can play music directly after accessing Youtube music",
+        "name": "User can choose any song genre to explore",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8632000000
+              "duration": 10388000000
             }
           },
           {
@@ -27,46 +27,227 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1834000000
+              "duration": 2031000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "User click search panel on top of page",
+            "name": "User click on Explore menu",
             "match": {
-              "location": "features\\step_definitions\\testcase1.js:11"
+              "location": "features\\step_definitions\\testcase1.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 12499000000
+              "duration": 14542000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "User input the \"In the end\" keyword",
+            "name": "User click on Moods & genres tab",
             "match": {
-              "location": "features\\step_definitions\\testcase1.js:16"
+              "location": "features\\step_definitions\\testcase1.js:80"
             },
             "result": {
               "status": "passed",
-              "duration": 1673000000
+              "duration": 823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User choose the Rock genre",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3035000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "User choose the song from the search result",
+            "line": 8,
+            "name": "User can see all musics in the \"Rock\" genre page",
             "match": {
-              "location": "features\\step_definitions\\testcase1.js:22"
+              "location": "features\\step_definitions\\testcase1.js:90"
             },
             "result": {
               "status": "passed",
-              "duration": 1356000000
+              "duration": 5347000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "most-accessed-features-2;user-can-access-artist-page-from-search",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User can access artist page from search",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Navigate to Youtube music Web",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click search panel on top of page",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User input the \"Linkin Park\" keyword",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User click the artist from search result",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User will be directed to the \"Linkin Park\" page",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "most-accessed-features-2;",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Navigate to Youtube music Web",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2452000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click search panel on top of page",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User input the \"One More Light\" keyword",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User click the album from the search result",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User will be directed to the \"One More Light\" album page",
+            "match": {
+              "location": "features\\step_definitions\\testcase1.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
             }
           }
         ],
@@ -74,11 +255,11 @@
         "type": "scenario"
       }
     ],
-    "id": "essential-features",
+    "id": "most-accessed-features-2",
     "line": 1,
     "keyword": "Feature",
-    "name": "Essential features",
+    "name": "Most Accessed Features 2",
     "tags": [],
-    "uri": "features\\testcase1.feature"
+    "uri": "features\\testcase2.feature"
   }
 ]
